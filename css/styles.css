@@ -35,3 +35,26 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
+.overlay{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0, 0.7);
+  display: block;
+}
+
+.modal {
+ position: absolute;
+ background-color: aquamarine;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ min-height: 200px;
+ min-width: 500px;
+ padding: 24px;
+}
+
+.hide {
+  display: none;
+}

@@ -9,3 +9,4 @@ const createList = function(text) {
 }
 
 array.map(el => createList(el))
+
